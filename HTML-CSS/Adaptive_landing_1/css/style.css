@@ -1,0 +1,150 @@
+@media  (min-width: 601px) and (max-width: 2500px){
+
+body {
+	background-image: url(../img/bg-illu4.jpg);
+	color: white;
+	font-size: 18pt;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.mean {
+	padding-top:150px;
+	position:relative;
+	margin: auto;
+	width: 600px;
+	height: 600px;
+}
+
+.block_pink {
+	background-color:#880088;
+	width: 200px;
+	height: 170px;
+	padding-top: 30px;
+	float:left;
+}
+
+.block_blue {
+	background-color:#000088;
+	height: 170px;
+	padding-top: 30px;
+	width: 200px;
+	float:left;
+}
+
+.block_blue_bottom {
+	background-color:#000088;
+	height: 170px;
+	padding-top: 30px;
+	width: 200px;
+	float:left;
+}
+
+.block_red {
+	background-color: #880000;
+	height: 170px;
+	padding-top: 30px;
+	width: 200px;
+	float:left;
+}
+
+img {
+	height: 100px;
+	padding: 50px 10px 0 15px;
+}
+
+.block_img {
+	height: 200px;
+	width: 200px;
+    float:left;
+	font-size: 12pt;
+}
+
+span {
+	font-size: 10pt;
+}
+
+}
+
+.block_pink:hover {
+     background-color:#884488;
+}
+.block_blue:hover {
+     background-color:#444488;
+}
+.block_red:hover {
+	background-color:#884444;
+}
+.block_blue_bottom:hover {
+     background-color:#444488;
+}
+
+
+
+@media (max-width: 600px) {
+	
+body {
+	background-image: url(../img/bg-illu1.jpg);
+	color: white;
+	font-size: 9pt;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.mean {
+	padding-top:10px;
+	position:relative;
+	margin: auto;
+	width: 200px;
+	height: 350px;
+}
+
+.block_pink {
+	background-color:#880088;
+	width: 200px;
+	height: 25px;
+	margin: 0 0 10px 0;
+	padding: 3px 0 0 0;
+}
+
+.block_blue {
+	background-color:#000088;
+	width: 200px;
+	height: 25px;
+	margin: 0 0 10px 0;
+	padding: 3px 0 0 0;
+}
+
+.block_red {
+	background-color: #880000;
+	width: 200px;
+	height: 25px;
+	margin: 0 0 10px 0;
+	padding: 3px 0 0 0;
+}
+
+img {
+	height: 40px;
+}
+
+.block_img {
+	width: 205px;
+	height: 40px;
+}
+
+.text {
+    display:none;
+}
+
+.block_blue_bottom {
+	background-color:#000088;
+	width: 200px;
+	height: 25px;
+	padding: 3px 0 0 0;
+}
+
+br {
+  display: none;
+}
+
+}	

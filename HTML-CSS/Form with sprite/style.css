@@ -1,0 +1,170 @@
+body {
+	font-family: Arial, sans-serif;
+    background:#eeeeee;
+	margin: 0;
+}
+
+.fon {
+	margin:auto;
+	font-size:11pt;
+	width: 860px;
+	height:690px;
+}
+
+/*Голова*/
+.header {
+	height:36px;
+}
+
+.logo {
+	width: 67px;
+	height: 25px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-image: url("product-common-sprite.png");
+	float: left;
+	margin: 10px 70px 0 20px;
+}
+
+h1 {
+  	margin-bottom: 0px;
+	color: #377ba6;
+}
+
+/*Меню*/
+.sidebar {
+	float:left;
+	padding: 7px 20px 0px 0px;
+	background:#eeeeee;
+}
+
+.menu {
+	background:white;
+	width: 150px;
+	border-radius: 10px;
+}
+
+ul {
+   padding-left:0px;
+   border: 1px solid silver;
+   border-radius: 10px;
+}
+
+li {
+   list-style-type: none;
+   padding: 10px 0 10px 13px;
+   color: #8d8581;
+}
+
+.li_top {
+	background:#297fb8;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	padding: 10px 0 10px 10px;
+} 
+
+.div_li:hover {
+	background: #f2c025;
+	border-radius:10px;
+}
+
+/*Форма*/
+.div_forms {
+	width: 635px;
+	background: white;
+	margin: 20px 0 0 10px;
+	border-radius: 10px;
+	padding: 10px 10px 10px 30px;
+	float:left;
+}
+
+fieldset {
+	margin-top: 20px;
+	border: 1px solid #98413f;
+	border-radius: 5px;
+	font-size:12pt;
+	width:585px;
+	background:white;
+}
+
+legend {
+	color: #8d8581;
+	font-size:11pt;
+}
+
+p {
+	color: #718db5;
+}
+
+.div_fieldset {
+	padding: 10px 0px 10px 30px;
+}
+	
+input, textarea {
+	border-radius: 3px;
+	font-size:11pt;
+	margin-top: 4px;
+}
+
+input {
+	width: 160px;
+	border: 1px solid gray;
+	margin-top: 4px;
+}
+
+select {
+	width: 90px;
+	font-size:11pt;
+	margin-top: 4px;
+}
+	
+.div_1 {
+	float: left;
+	margin-right:30px;
+}
+
+.div_2 {
+	float:left;
+	clear:both;
+}
+
+.text {
+	padding-bottom: 3px; 
+}
+
+.left_box {
+	width: 12px;
+	margin: 0 5px 10px 5px;
+}
+
+.div_color {
+    width: 85px;
+    height: 255px;
+    float: right;
+	margin: -50px 20px -255px 75px;
+}
+
+.color_pet {
+	width:50px;
+	margin: 0px 0px 10px 0px;
+}
+
+.button_1 {
+	margin: 10px 0 0 0px;
+	width: 70px;
+	border-radius: 5px;
+	background:#297fb8;
+	color: white;
+	padding: 5px 0px 5px 0px;
+	border:0;
+}
+	
+.button_2 {
+	margin: 10px 0 0 10px;
+	width: 70px;
+	border-radius: 5px;
+	background: #297fb8;
+	color: white;
+	padding: 5px 0px 5px 0px;
+	border:0;
+}	

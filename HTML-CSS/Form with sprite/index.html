@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Форма</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<div class="fon">
+
+<!--Голова-->
+<div class="header">
+<div class="logo"></div>
+<h1>Zoo Keeper Application</h1>
+</div>
+
+<!--Меню-->
+<div class="sidebar">
+  <div class="menu">
+    <ul>
+	  <li class="li_top">Products</li>
+	  <div class="div_li"><li>Products</li></div>
+	  <div class="div_li"><li>Services</li></div>
+	  <div class="div_li"><li>Feedback</li></div>
+	</ul>
+  </div>
+  <div class="menu">
+    <ul>
+	  <li class="li_top">Reports</li>
+	  <div class="div_li"><li>Assigned Issues</li></div>
+	  <div class="div_li"><li>Summary View</li></div>
+	</ul>
+  </div>
+  <div class="menu">
+    <ul>
+	  <li class="li_top">Info</li>
+	  <div class="div_li"><li>Home</li></div>
+	  <div class="div_li"><li>Articles</li></div>
+	  <div class="div_li"><li>About us</li></div>
+	</ul>
+  </div>
+ </div>
+
+<!--Форма-->
+ <div class="div_forms"> 
+    <p>Please complete the form</p> 
+    <form>
+    <fieldset>
+      <legend>Contact Details</legend>
+        <div class="div_fieldset">
+		<div class="div_1">
+          <div class="text">Name</div>
+          <input  type="text" name="name_1" placeholder="Иван Топорышкин">
+		</div>
+        <div>
+           <div class="text">Telephone</div>
+          <input  type="tel" name="name_2" placeholder="89955566893">
+		</div>
+		<div class="div_1">
+           <div class="text"><br>Email</div>
+          <input  type="email" name="name_3" placeholder="smbody@mail.ru">
+		</div>
+		<div>
+           <div class="text"><br>Web site</div>
+          <input  type="url" name="name_4" placeholder="www.site.ru">
+		</div>
+		</div>
+	</fieldset>
+	<fieldset>
+      <legend>Person Details</legend>
+	  <div class="div_fieldset">
+        <div class="div_1">
+           <div class="text">Birthday</div>
+          <input  type="date" name="name_4" value="11-11-2000">
+		</div>
+		<div class="div_1">
+          <div class="text">Gender</div>
+          <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+         </div>
+		<div>
+           <div class="text">Registration date</div>
+          <input  type="date" name="name_4" placeholder="02-06-2016">
+		</div>
+		<div class="div_1">
+	    <div class="div_2"><div class="text"><br>When did you first know you wanted to be a zoo-keeper?</div></div>
+		<br><textarea rows="5" cols="20"></textarea>
+		</div>
+		<div class="div_1">
+		<div class="text"><br>Pick Your Favorite Animals</div>
+	    <div>
+		<input class="left_box" type="checkbox" name="vib1" value="Dog"> Dog
+        <input class="left_box" type="checkbox" name="vib2" value="Cat"> Cat
+        <input class="left_box" type="checkbox" name="vib3" value="Turtle"> Turtle
+		<input class="left_box" type="checkbox" name="vib4" value="Fish"> Fish
+		<input class="left_box" type="checkbox" name="vib5" value="Parrot"> Parrot
+		<input class="left_box" type="checkbox" name="vib6" value="Canary"> Canary
+	    </div>
+		</div>
+		<div class="div_color">
+		<div class="text">Color of Pet</div>
+        <input  class="color_pet" type="color" name="name_6">
+		</div>
+		</div>
+	</fieldset>
+  </form>
+  <input type="submit" value="Submit" class="button_1"> 
+  <a href="index.html"><input type="reset" value="Reset" class="button_2"></a>
+  </div>
+ </div>  
+</div>
+</body>
+</html>

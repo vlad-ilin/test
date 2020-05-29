@@ -1,0 +1,286 @@
+body {
+	margin:0;
+	font-size:24pt;
+}
+img {
+	width: 250px; 
+}
+
+.fon {
+	background-image: url(../img/map_of_kyrandia.jpg);
+	position:relative;
+    width:1400px;
+	height:1003px;
+	margin:auto;
+}
+
+
+.text {
+	text-align:center;
+	background: #dec783;
+	border-radius:10px;
+}
+
+
+
+.main_1 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 155px 0 0 185px;
+	
+}
+
+.podskazka_1 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+	margin-top: 10px;
+}
+
+.main_1:hover .podskazka_1  {
+	display:block;
+}
+
+
+.main_2 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 350px 0 0 200px;
+	
+}
+
+.podskazka_2 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_2:hover .podskazka_2  {
+	display:block;
+}
+
+.main_3 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 445px 0 0 110px;
+}
+
+.podskazka_3 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+	margin-top: 10px;
+}
+
+.main_3:hover .podskazka_3  {
+	display:block;
+}
+
+.main_4 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 555px 0 0 230px;
+	
+}
+
+.podskazka_4 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_4:hover .podskazka_4  {
+	display:block;
+}
+
+.main_5 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 460px 0 0 360px;
+	
+}
+
+.podskazka_5 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_5:hover .podskazka_5  {
+	display:block;
+}
+
+.main_6 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 405px 0 0 535px;
+}
+
+.podskazka_6 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_6:hover .podskazka_6  {
+	display:block;
+}
+
+.main_7 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 425px 0 0 715px;
+}
+
+.podskazka_7 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_7:hover .podskazka_7  {
+	display:block;
+}
+
+.main_8 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 580px 0 0 785px;
+}
+
+.podskazka_8 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_8:hover .podskazka_8  {
+	display:block;
+}
+
+.main_9 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 700px 0 0 985px;
+}
+
+.podskazka_9 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_9:hover .podskazka_9  {
+	display:block;
+}
+
+.main_10 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 470px 0 0 915px;
+}
+
+.podskazka_10 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_10:hover .podskazka_10  {
+	display:block;
+}
+
+.main_11 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 300px 0 0 835px;
+}
+
+.podskazka_11 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_11:hover .podskazka_11  {
+	display:block;
+}
+
+.main_12 { 
+    width:200px;
+	height:200px;
+	position:absolute;
+	color: red;
+	text-align:center;
+	font-weight:bold;
+	margin: 180px 0 0 1015px;
+	transition: all 2.0s linear 0.5s;
+}
+
+.podskazka_12 {
+	position: absolute;
+    display:none;
+	width:200px;
+	height:200px;
+}
+
+.main_12:hover .podskazka_12  {
+	display:block;
+	-webkit-transform: translate(0px, 0px);
+   transition: all 1.0s ease 1.5s; 
+}
